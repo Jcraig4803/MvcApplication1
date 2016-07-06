@@ -34,5 +34,11 @@ namespace MvcApplication1.Controllers
 
             return View();
         }
+        public ActionResult TMNT()
+        {
+            ViewBag.Message = "This is a TMNT page.";
+
+            return View();
+        }
     }
 }
