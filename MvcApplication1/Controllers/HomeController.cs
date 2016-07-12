@@ -39,6 +39,21 @@ namespace MvcApplication1.Controllers
             ViewBag.Message = "This is a TMNT page.";
 
             return View();
+
+        }
+        public ActionResult FAQ()
+        {
+            ViewBag.Message = "This is a FAG page.";
+
+            return View();
+
+        }
+        public ActionResult FeedBack()
+        {
+            ViewBag.Message = "This is a FeedBack page.";
+
+            return View();
+
         }
     }
 }

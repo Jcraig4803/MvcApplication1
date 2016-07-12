@@ -304,6 +304,8 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Blog.cshtml" />
     <Content Include="Views\Home\TMNT.cshtml" />
+    <Content Include="Views\Home\FeedBack.cshtml" />
+    <Content Include="Views\Home\FAQ.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
